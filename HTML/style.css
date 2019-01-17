@@ -51,7 +51,7 @@
 .has-sub-menu{
     position: relative;
 }
-.nav-menu .sub-menu{
+.sub-menu{
     display: none;
     position: absolute;
     background-color: #eee;
@@ -59,7 +59,7 @@
     list-style: none;
     
     box-shadow: 0 0 5px rgba(0,0,0,.2);
-    
+    /*top: calc(100% + 20px); /*Đây là một kết hợp giữa hai đơn vị % và px. Để gán độ top cho class .submenu là 100% + 20px,*/
     
     /*
     position: absolute;
