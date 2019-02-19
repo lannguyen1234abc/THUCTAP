@@ -1,0 +1,397 @@
+
+.img-slide {
+    width: 100%;
+    height: 700px;
+}
+
+.text-detail p {
+    width: 85%;
+    text-align: center;
+}
+
+.text-detail h5 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.border-bottom {
+    position: relative;
+    top: 10%;
+}
+
+.border-custom {
+    border: 1px solid gray;
+}
+
+.box-500-500 {
+    height: 400px;
+    width: 450px;
+    background-color: rgb(224, 222, 222);
+}
+
+.box-size {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    color: rgb(168, 166, 166);
+}
+
+.text-content {
+    position: absolute;
+    top: 30%;
+}
+
+.text-title {
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.text-detail-box {
+    font-size: 20px;
+    font-weight: 200;
+}
+.Menu{
+    position: absolute;
+    top: 0px;
+    opacity: 0.5;
+}
+.logo {
+    text-align: center;
+    margin: 20px 100px;
+}
+
+.navbar-nav {
+    margin: 0 40px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar {
+    justify-content: end;
+    padding-top: 30px;
+}
+
+.navbar .a {
+    text-decoration: none;
+}
+
+.img-logo {
+    justify-content: start;
+}
+
+
+
+.navbar .text-nav {
+    color: white;
+    margin: 40px 20px;
+    text-align: center;
+    font-size: 17px;
+}
+
+.text-slide {
+    color: white;
+    display: inline-block;
+    padding: 100px 150px 100px 300px;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+
+.text-slide h1 {
+    font-size: 44px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 30px;
+}
+
+.text-slide span {
+    font-weight: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.text-slide button {
+    padding: 17px 40px;
+    margin-right: 40px;
+    margin-top: 30px;
+}
+
+.available li {
+    position: absolute;
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+}
+
+.available h5 {
+    margin-left: 0px;
+    position: relative;
+}
+
+.available .icons {
+    margin-left: 160px;
+    margin-right: 140px;
+}
+
+.feature-header {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.feature-header h1 {
+    font-size: 50px;
+}
+
+.feature-header p {
+    font-size: 22px;
+}
+
+.feature-content {
+    display: inline;
+}
+
+.box-gallery {
+    background: #333;
+    height: 240px;
+}
+
+.gallery-header {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.box-gallery-img {
+    width: 100%;
+}
+
+.box-gallery-text {
+    color: #4AC9FE;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.video {
+    background-image: url("../images/backgroup_item1.png");
+    background-repeat: no-repeat;
+    height: 430px;
+    margin-top: 160px;
+    text-align: center;
+}
+
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.icon-video {
+    color: #fff;
+}
+
+.b-btn-play {
+    position: relative;
+    width: 115px;
+    height: 75px;
+    border-radius: 8px;
+    background-color: rgb(114, 179, 204, 0);
+    border: 2px solid #fff;
+}
+
+.text-video {
+    color: #fff;
+}
+
+.title-video {
+    font-family: "lato";
+    font-weight: 20px;
+    font-size: 48px;
+}
+
+.text-video p {
+    margin: 20px 300px;
+    display: block;
+}
+
+.b-btn-play {
+    margin-top: 50px;
+}
+
+.card-deck {
+    text-align: center;
+    margin-top: 100px;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+
+.b-btn-1 {
+    color: white;
+    padding: 7px 30px;
+    border-radius: 5px;
+    background-color: #91c46b;
+}
+
+.b-btn-2 {
+    color: white;
+    padding: 7px 30px;
+    border-radius: 5px;
+    background-color: #4bcaff;
+}
+
+.b-btn-3 {
+    color: white;
+    padding: 7px 30px;
+    border-radius: 5px;
+    background-color: #fd7c00;
+}
+
+.card h5 {
+    margin: 10px 20px;
+    color: #C7C4C4;
+}
+
+.card-body p {
+    color: #C7C4C4;
+}
+
+.card-header-1 {
+    background-color: #91c46b;
+    color: #fff;
+    font-size: 70px;
+    font-family: "Droid Sans";
+}
+
+.card-header-2 {
+    background-color: #4bcaff;
+    color: #fff;
+    font-size: 70px;
+    font-family: "Droid Sans";
+}
+
+.card-header-3 {
+    background-color: #fd7c00;
+    color: #fff;
+    font-size: 70px;
+    font-family: "Droid Sans";
+}
+
+.title-testimonails {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 80px;
+}
+
+.row .col-5 {
+    text-align: end;
+}
+
+.item {
+    width: 855px;
+}
+
+.item p {
+    text-align: start;
+    color: #4AC9FE;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 30px;
+}
+
+.item h5 {
+    text-align: end;
+    color: #4AC9FE;
+}
+
+.item h6 {
+    text-align: end;
+    color: #4AC9FE;
+}
+
+.download {
+    margin-top: 100px;
+    height: 200px;
+    text-align: center;
+    padding-top: 25px
+}
+
+.download h3 {
+    color: #fff;
+}
+
+.b-btn-download {
+    width: 200px;
+    height: 60px;
+    border-radius: 8px;
+    background-color: #4AC9FE;
+    border: 2px solid #fff;
+    font-size: 15px;
+    color: #414042;
+    box-shadow: 0px 3px 0px #277697;
+}
+
+.text-dowload {
+    font-size: 50px;
+}
+
+.contact {
+    background-image: url("./images/google-map-background.jpg");
+    background-repeat: no-repeat;
+    height: 600px;
+    text-align: center;
+}
+
+.b-page-form {
+    border-radius: 4px;
+    width: 324px;
+    height: 460px;
+    background-color: rgba(75, 202, 255, 0.8);
+    padding: 10px;
+    margin-left: 500px;
+}
+
+.b-title {
+    color: #fff;
+}
+
+input {
+    width: 270px;
+    height: 34px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    margin-top: 10px;
+}
+
+textarea {
+    width: 270px;
+    height: 145px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    margin-top: 10px;
+}
+
+input[type=submit] {
+    width: 180px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: #09090a;
+    font-size: 15px;
+    color: #72b3cc;
+    font-weight: 700;
+}
+
+footer {
+    background-color: #212529;
+    height: 80px;
+    color: #fff;
+    padding-top: 27px;
+    font-size: 12px;
+}
+
+.left-text {
+    padding-left: 100px;
+}
+
+.right-text {
+    padding-right: 150px;
+}
+
