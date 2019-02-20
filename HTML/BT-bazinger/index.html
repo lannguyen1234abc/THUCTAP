@@ -24,7 +24,7 @@
 <body>
     <!-- Menu -->
 
-    <header class="container-fluid bg-dark Menu sticky-top">
+    <header class="container-fluid bg-dark Menu fixed-top">
         <div class="d-flex flex-row">
             <div class="col-lg-3">
                 <div class="img-logo">
@@ -39,35 +39,35 @@
                     <nav class="navbar-expand-sm">
                         <ul class="navbar-nav">
                             <li>
-                                <a href="" class="text-nav">HOME</a>
+                                <a href="#home" class="text-nav">HOME</a>
                             </li>
 
                             <li>
-                                <a href="" class="text-nav">FEATURES</a>
+                                <a href="#features" class="text-nav">FEATURES</a>
                             </li>
 
                             <li>
-                                <a href="" class="text-nav">GALLERY</a>
+                                <a href="#gallery" class="text-nav">GALLERY</a>
                             </li>
 
                             <li>
-                                <a href="" class="text-nav">VIDEO</a>
+                                <a href="#video" class="text-nav">VIDEO</a>
                             </li>
 
                             <li>
-                                <a href="" class="text-nav">PRICES</a>
+                                <a href="#prices" class="text-nav">PRICES</a>
                             </li>
 
                             <li>
-                                <a href="" class="text-nav">TESTIMONIALS</a>
+                                <a href="#testimontals" class="text-nav">TESTIMONIALS</a>
                             </li>
 
                             <li>
-                                <a href="" class="text-nav">DOWLOAD</a>
+                                <a href="#download" class="text-nav">DOWNLOAD</a>
                             </li>
 
                             <li>
-                                <a href="" class="text-nav">CONTACT</a>
+                                <a href="#contact" class="text-nav">CONTACT</a>
                             </li>
                         </ul>
                     </nav>
@@ -77,7 +77,7 @@
     </header>
 
     <!-- Carousel -->
-
+    <div class="container-fluid" id="home">
     <div id="carousel" class="carousel" data-ride="carousel">
         <ul class="carousel-indicators">
             <li data-target="#carousel" data-slide-to="0" class="active"></li>
@@ -167,11 +167,11 @@
             <span class="carousel-control-next-icon"></span>
         </a>
     </div>
-
+    </div>
 
     <!-- View Details -->
 
-    <div class="container border-bottom">
+    <div class="container border-bottom" id="features">
         <div class="feature-header">
             <h1>Summarise the features</h1>
 
@@ -245,7 +245,7 @@
         </div>
     </div>
 
-    <div class="container border-bottom">
+    <div class="container border-bottom" id="gallery">
         <div class="gallery-header">
             <h1>Show the gallery</h1>
 
@@ -306,7 +306,7 @@
     </div>
 
     <!-- Video -->
-    <div class="container-fluid bg-dark ">
+    <div class="container-fluid bg-dark " id="video">
         <div class="video">
 
             <button class="b-btn-play">
@@ -333,7 +333,7 @@
 
     <!--Prices-->
 
-    <div class="container">
+    <div class="container" id="prices">
         <div class="d-flex flex-row card-deck ">
 
             <div class="col-4">
@@ -386,7 +386,7 @@
 
     <!--Testimonails-->
 
-    <div class="container">
+    <div class="container" id="testimontals">
         <div class="title-testimonails">
             <h1 class="t-title">TESTIMONAILS</h1>
         </div>
@@ -410,7 +410,7 @@
 
     <!--download-->
 
-    <div class="container-fluid bg-dark ">
+    <div class="container-fluid bg-dark " id="download">
         <div class="download">
             <h3 class="text-dowload">Do you like this app ?</h3>
             <button class="btn b-btn-download">DOWNLOAD NOW</button>
@@ -421,7 +421,7 @@
 
 
     <!--Contact-->
-    <div class="container-fluid bg-dark ">
+    <div class="container-fluid bg-dark " id="contact">
         <div class="contact">
             <div class="b-page-form text-center">
                 <form action="" class="form">
